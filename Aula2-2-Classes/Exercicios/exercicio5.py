@@ -14,9 +14,9 @@
 class Produtos:
 
 
-    def __init__(self, nome, bebida) -> None:
+    def __init__(self, nome, valor) -> None:
         self.__nome = nome
-        self.__marca = bebida
+        self.valor = bebida
 
     def get_nome(self):
         return self.__nome
@@ -30,14 +30,14 @@ class Produtos:
 
 
 
-# produto = Produtos("Coca-Cola", ["Skol", "Pepsi", "Guárana"])
-# print(produto.get_nome())
-# produto.set_nome("Fanta")
-# print(produto.get_nome())
-# produto.get_marca()
+produto = Produtos("Coca-Cola", ["Skol", "Pepsi", "Guárana"])
+print(produto.get_nome())
+produto.set_nome("Fanta")
+print(produto.get_nome())
+produto.get_marca()
 
 
-
+#Exercicio com Property e Setter
 class Produtos:
 
 #metodo construtor
