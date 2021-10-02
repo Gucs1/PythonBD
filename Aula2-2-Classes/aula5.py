@@ -46,9 +46,19 @@ class Escritor:
     def nome(self, valor):
         self.__nome = valor
 
+    @property
+    def titulos(self):
+        return self.__titulos
+
+    @titulos.setter 
+    def titulos(self, abacaxi):
+        self.titulos = abacaxi
+
+
 escritor = Escritor("Shakeaspeare", ["Livro1", "Livro2", "Livro3"])
 print(escritor.nome)
 escritor.nome = "Machado de Assis"
 print(escritor.nome)
-
+print(escritor.titulos)
+escritor.titulos
 
