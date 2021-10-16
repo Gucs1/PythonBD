@@ -1,3 +1,5 @@
+
+
 # Para garantir o comportamento de uma denominada aplicação é muito importante que tenhamos testes sobre a nossa aplicação
 
 # Nessa secção veremos sobre o uso de asserts com unittest para verificar
